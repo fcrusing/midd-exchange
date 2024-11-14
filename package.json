@@ -52,5 +52,10 @@
     "chai": "^4.3.6",
     "ethers": "^5.5.4",
     "hardhat": "^2.10.1"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": ["eslint", "typescript"]
+    }
   }
 }
